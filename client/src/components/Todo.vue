@@ -18,7 +18,6 @@
             name="t"
             v-model="titre"
           />
-          <!-- -->
         </div>
         <div class="form-group  m-2">
           <label htmlFor="todo" class="p-2">
@@ -31,7 +30,6 @@
             name="todo"
             v-model="todo"
           />
-          <!-- " -->
         </div>
       </div>
       <button class="m-2 btn btn-primary submit col-3" v-on:click="submitTodo">
@@ -39,8 +37,6 @@
       </button>
     </form>
 
-    <!-- {{ ( c = contrast(val.color)) }} -->
-    <!-- -->
     <div
       v-for="item in todoList"
       :key="item.id"
