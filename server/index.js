@@ -24,7 +24,6 @@ const setDataJson = () => {
     fs.writeFile("./data.json", jd, function(err, result) {
         if (err) console.log("error", err);
     });
-    // fs.writeFileSync("data.json", jd);
 };
 app.use(cors());
 app.use(express.json());
